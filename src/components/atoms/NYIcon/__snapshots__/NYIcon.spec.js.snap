@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test 1`] = `
+<button
+  class="button is-white"
+>
+  <font-awesome-icon-stub />
+</button>
+`;

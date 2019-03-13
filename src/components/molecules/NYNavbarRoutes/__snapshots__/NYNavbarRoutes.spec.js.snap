@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test 1`] = `
+<ul>
+  <ny-navbar-item-stub
+    label="Home"
+    to="[object Object]"
+  />
+  <ny-navbar-item-stub
+    label="Science and Tech"
+    to="[object Object]"
+  />
+  <ny-navbar-item-stub
+    label="Health"
+    to="[object Object]"
+  />
+  <ny-navbar-item-stub
+    label="Politics"
+    to="[object Object]"
+  />
+  <ny-navbar-item-stub
+    label="World"
+    to="[object Object]"
+  />
+</ul>
+`;

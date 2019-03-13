@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test 1`] = `
+<div
+  class="modal is-active"
+>
+  <div
+    class="modal-background"
+  />
+   
+  <div
+    class="modal-card"
+  >
+    <section
+      class="modal-card-body"
+    >
+      <button
+        aria-label="close"
+        class="delete is-pulled-right"
+      />
+       
+      <article
+        class="media"
+      >
+        <div
+          class="media-content"
+        >
+          <div
+            class="content"
+          >
+            <figure
+              class="image"
+            >
+              <img
+                alt=""
+                src=""
+                width=""
+              />
+            </figure>
+             
+            <p>
+              <strong
+                style="max-width: 50px;"
+              >
+                
+          
+        
+              </strong>
+               
+              <br />
+               
+              <small
+                class="has-text-grey is-size-7"
+              >
+                
+          
+          
+        
+              </small>
+               
+              <br />
+               
+              <span
+                class="is-size-6"
+              >
+                
+              </span>
+            </p>
+             
+            <!---->
+          </div>
+        </div>
+      </article>
+    </section>
+  </div>
+</div>
+`;

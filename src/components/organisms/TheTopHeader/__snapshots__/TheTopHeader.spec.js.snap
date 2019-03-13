@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheTopHeader Component snapshot test 1`] = `
+<ny-level-stub
+  extra-classes="is-mobile"
+>
+  <!---->
+   
+  <!---->
+   
+  <!---->
+   
+  <!---->
+</ny-level-stub>
+`;

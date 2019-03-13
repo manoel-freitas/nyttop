@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test 1`] = `
+<article
+  class="media"
+>
+  <div
+    class="media-content"
+  >
+    <div
+      class="content"
+    >
+      <figure
+        class="image"
+      >
+        <img
+          alt=""
+          src=""
+          width=""
+        />
+      </figure>
+       
+      <p>
+        <strong
+          style="max-width: 50px;"
+        >
+          
+          
+        
+        </strong>
+         
+        <br />
+         
+        <small
+          class="has-text-grey is-size-7"
+        >
+          
+          
+          
+        
+        </small>
+         
+        <br />
+         
+        <span
+          class="is-size-6"
+        >
+          
+        </span>
+      </p>
+       
+      <!---->
+    </div>
+  </div>
+</article>
+`;

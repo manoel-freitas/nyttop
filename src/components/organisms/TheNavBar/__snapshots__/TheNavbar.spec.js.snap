@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test 1`] = `
+<nynavbarroutes-stub
+  listclass="levelbar"
+  listitemclass="levelbar-item"
+/>
+`;
