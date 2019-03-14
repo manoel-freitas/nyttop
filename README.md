@@ -4,7 +4,7 @@ This project is the step 2 of the ThoughWorks job interview, where you can find 
 
 ## Description & Requirements
 
-We at Thoughtworks really want to have a way to keep our team up to date with the most important news in science and technology, health, politics and the world. To do this, we need your help so that you create a web page that contains this information. Our suggestion is that you consult The New York Times, http://developer.nytimes.com/, and get your information from a fetch at api top_stories. Your page must contain the following requirements:
+We at Thoughtworks really want to have a way to keep our team up to date with the most important news in science and technology, health, politics and the world. To do this, we need your help so that you create a web page that contains this information. Our suggestion is that you consult The New York Times, <http://developer.nytimes.com/,> and get your information from a fetch at api top_stories. Your page must contain the following requirements:
 
 1. We would like your page to have 4 news headlines: Science & Technology, Health, Politics and the World. According to the sectors of The New York Times science, technology, health, politics and world.
 1. When we browse by sector, we should not see the news from other sectors.
@@ -16,10 +16,10 @@ We at Thoughtworks really want to have a way to keep our team up to date with th
 
 ## Mandatory Requisites
 
-1.There must be a descriptive README, which can be in Portuguese or English. The README should contain relevant architectural information, explanations, and comments, and contain all the information necessary to run the problem.
+1. There must be a descriptive README, which can be in Portuguese or English. The README should contain relevant architectural information, explanations, and comments, and contain all the information necessary to run the problem.
 
 1. Your code must have a initializer script, one suggestion is to use Makefiles to run the commands.
-1. The url we want you to expose is http://localhost:3000/nyttop.
+1. The url we want you to expose is <http://localhost:3000/nyttop.>
 
 ## About this project
 
@@ -34,89 +34,45 @@ Because of the small scope of the project, I didn't use it the flux pattern, wha
 It has 17 test suites, with 40 unit tests and a mean of 2 tests per component.
 
 The Test pyramid here it's showed below with a bottom-up(bottom more tests, top less tests) view.
+***
 
-e2e 0 (it has hero because of I run enough of time to do that)
-snapshots(which guarantees the visual of component) 11
-unit 40
+* **0 e2e Tests (it has hero because of I run enough of time to do that)**
+* **11 Snapshots Tests(which guarantees the visual of component)**
+* **40 Unit Tests**
+
+***
 
 ## Getting Started
 
 To run the project, you have to follow the steps below:
 
-```
+```shell
 git clone <repo:origin> <repo-dir>
 cd <repo-dir>
-
+make `or` npm install
+make dev `or` npm run dev
+<or if you use docker>
+npm run docker:build
+npm run docker
 ```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+To run the tests follow:
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+```shell
+make test <or> npm test
 ```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [Maven](https://maven.apache.org/) - Dependency Management
-- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+I use [SemVer](http://semver.org/) for versioning.
 
 ## Authors
 
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+- **Manoel Freitas** - _Initial work_ - [manoel-freitas](https://github.com/manoel-freitas)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
