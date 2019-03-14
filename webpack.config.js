@@ -78,8 +78,8 @@ module.exports = (env, argv) => {
     config.plugins.push(
       new CopyWebpackPlugin([
         {
-          from: resolve('static/'),
-          to: resolve('dist/nyttop/'),
+          from: resolve('static/_redirects'),
+          to: resolve('dist'),
           toType: 'dir'
         }
       ])
