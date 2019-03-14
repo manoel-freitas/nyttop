@@ -9,7 +9,7 @@ function resolve(dir) {
   return path.join(__dirname, dir)
 }
 const config = {
-  entry: ['./src/main.js'],
+  entry: './src/main.js',
   output: {},
   plugins: [
     new HtmlWebpackPlugin({
@@ -79,7 +79,7 @@ module.exports = (env, argv) => {
       new CopyWebpackPlugin([
         {
           from: resolve('static/'),
-          to: resolve('dist/nyttop/static'),
+          to: resolve('dist/nyttop/'),
           toType: 'dir'
         }
       ])
